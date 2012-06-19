@@ -28,9 +28,14 @@ $(function() {
 ## Options
 
 *position*
-*+top**または**bottom**を文字列で指定します。
+
+**top**
+または
+**bottom**
+を文字列で指定します。
 
 *animationSpeed*
+
 一旦消えた上付き、下付きの部分を再表示する際のスピードを数値で指定します。
 
 ## Sample

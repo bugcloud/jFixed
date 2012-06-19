@@ -39,7 +39,7 @@ $(function() {
 一旦消えた上付き、下付きの部分を再表示する際のスピードを数値で指定します。
 
 ## Sample
-http://bugcloud.github.com/jfixed/
+http://bugcloud.github.com/jFixed/
 
 ## License
 MIT

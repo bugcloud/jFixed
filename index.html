@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.6, maximum-scale=1.2">
+    <title>.jFixed - jQuery Plugin</title>
+    <link href="style/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <h1>jFixed</h1>
+      </a>
+    </header>
+    <div class='content'>
+      <h2>This is main content</h2>
+      <p>Good night world!!!</p>
+    </div>
+    <div class='content content-second'>
+      <h2>This is 2nd content</h2>
+      <p>!!!</p>
+    </div>
+    <div class='content content-third'>
+      <h2>This is 3rd content</h2>
+      <p>!!!</p>
+    </div>
+    <div class='content content-fourth'>
+      <h2>This is 4th content</h2>
+      <p>!!!</p>
+    </div>
+    <footer>
+      <p>
+        <a href="/">
+          See jFixed on github
+        </a>
+      </p>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="js/jquery.jfixed.js"></script>
+
+    <script>
+      $(function() {
+        $("header").jFixed()
+        $("footer").jFixed({
+          position: "bottom",
+          animationSpeed: 150
+        })
+      })
+    </script>
+
+  </body>
+</html>

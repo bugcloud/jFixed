@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  text-align: center;
+  color: #222;
+}
+
+a {
+  color: #222;
+}
+
+.content {
+  background: #fff;
+  height: 800px;
+  margin: 74px 0 0 0;
+  padding: 30px 10px;
+}
+
+.content-second {
+  background: #ccc;
+  margin-top: 0;
+}
+
+.content-third {
+  background: #333;
+  margin-top: 0;
+}
+
+.content-fourth {
+  background: #000;
+  margin-top: 0;
+}
+
+header,
+footer {
+  background: url(../img/bg.png) repeat left top;
+  color: #222;
+}
+
+header {
+  -webkit-box-shadow: 0px 2px 6px 1px #171717;
+  -moz-box-shadow: 0px 2px 6px 1px #171717;
+  box-shadow: 0px 2px 6px 1px #171717;
+}
+
+footer {
+  -webkit-box-shadow: 0px -2px 6px 1px #171717;
+  -moz-box-shadow: 0px -2px 6px 1px #171717;
+  box-shadow: 0px -2px 6px 1px #171717;
+}
+
+/* These style must be set. */
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}

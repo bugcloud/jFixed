@@ -3,6 +3,23 @@
 AndroidのWebViewで"position:fixed;"が使えないそうなので、カッとなってjQueryプラグインにしました。
 
 ## How to use
+対象の要素に"position:absolute;"をつけて上付き / 下付きにします
+```css
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+```
+
 HTMLでscriptを読み込みます
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
